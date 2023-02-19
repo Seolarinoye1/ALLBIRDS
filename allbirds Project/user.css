@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #095353;
+    padding: 12px;
+}
+.navbar p{
+    color: white;
+    Font-size: 11px;
+    Font-weight: 600;
+    height: 16.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navbar a{
+    color: white;
+    Font-size: 11px;
+    Font-weight: 600;
+    height: 16.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+   
+    
+}
+.interface{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.logo {
+    width:10%;
+}
+.specification{
+    display: flex;
+    gap: 15px; 
+    margin-left: 20px;
+   
+}
+.specification a:hover{
+    border-bottom: 1px solid black;
+    transition: .3s;
+}
+.mendropdown{
+   margin-top: 7px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-top: 30px;
+
+    
+}
+.shoe{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+ 
+.shop{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+
+.apparel{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.featured{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -60px;
+    
+}
+.featured img{
+    width: 400px;
+}
+.featured p{
+    position: relative;
+    bottom: 50%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.featured p:hover{
+    border-bottom: 1px solid white;
+}
+dl{
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+dl:hover{
+    border-bottom: 1px solid black;
+}
+.ul1 a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.ul1 a:hover{
+    border-radius: 1px solid black;
+    transition: .3s;
+}
+li{
+    list-style-type:none;
+    padding:0;
+}
+.ul1{
+    display:none; 
+    /* display: relative; */
+}
+
+li:hover .ul1{
+    display:flex;
+    position:absolute;
+    left:0;
+    width:100%;
+    height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* background-color:gold; */
+    /* justify-content:center; */
+  }
+
+nav{
+    display: flex;
+    width: 100%;
+    /* position: fixed; */
+    background-color: white;
+    justify-content: space-between;
+}
+.interface a{
+    color: black;
+    Font-size: 12px;
+    Font-weight: 700;
+    height: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 10px;
+    border-bottom:  none;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.spec{
+    display: flex;
+    gap: 10px;
+    
+}
+.spec a:hover{
+    border-bottom: 1px solid black;
+}
+.spec a img{
+    width: 25px;
+    border: none;
+    
+}
+.spec img{
+    width: 7%;
+    align-items: center;
+}
+body{
+    background-color: #f1ebe7;
+}
+.signup-page{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: space-evenly;
+}
+.col1 h1{
+   font-size: 24px;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 24px;
+   margin-bottom: 50px;
+}
+.email-1 p{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    margin-bottom: 8px;
+}
+.email-1 input{
+    padding: 22px 120px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.passwd-1 p{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    margin-bottom: 8px;
+}
+.passwd-1 input{
+    padding: 22px 120px;
+    border: none;
+    margin-bottom: 20px;
+}
+.signin-btn input{
+    padding: 22px 180px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.signin-btn input:hover{
+    background-color: #f1ebe7;
+    color: black;
+    transition: .2s;
+}
+.forgot-passwd a{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.col2, .col1{
+    margin-left: 100px;
+}
+.col2-txt h1{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.save-credit{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.registering {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.fstname p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+.fstname input{
+    padding: 22px 120px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.phone p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+.phone input{
+    padding: 22px 120px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.email-2 p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+.email-2 input{
+    padding: 22px 120px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.passwd-2 p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+.passwd-2 input{
+    padding: 22px 120px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.confirm-passwd p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+.confirm-passwd input{
+    padding: 22px 120px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.register button{
+    padding: 22px 172px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.register button:hover{
+    background-color: #f1ebe7;
+    color: black;
+    transition: .2s;
+}
+.creating{
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.creating p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h6{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 140px;
+}
+
+.stay-in-touch{
+    background-color: #212a2f;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.stay-in-touch p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.04px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.stay-in-touch input{
+    padding: 15px 50px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #4d5559;
+    margin-left: 30px;
+}
+.stay-in-touch button{
+    padding: 15px 30px;
+    background-color: #4d5559;
+    color: white;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.stay-in-touch button:hover{
+    background-color: white;
+    color: black;
+}
+
+.company{
+    display: flex;
+    background-color: #212a2f;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.company a{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    gap: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.company h5{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.row1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.row2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.row3{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.follow{
+    display: flex;
+    background-color: #212a2f;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.line1{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin-left: 20px;
+}
+.line1 h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.line1 p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.line1 img{
+    margin-left: 10px;
+}
+.line2{
+    width: 20%;
+}
+.line3{
+    
+    margin-left: 100px;
+}
+.line3 img{
+    margin-left: 10px;
+}
+.last-line{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #212a2f;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.and{
+    margin-left: 5px;
+}
+.last-line p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last-line a{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+#msg,
+#imsg{
+    color:red;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    margin-top: -15px;
+}

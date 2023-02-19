@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useradmin</title>
+    <link rel="stylesheet" href="./productadmin.css">
+</head>
+<body>
+    <div class="admin-page">
+        <form class="admin"> 
+          <input id="fname" class="name" type="" placeholder="Username" name="name"/>
+          <input id="phone" type="" placeholder="Phone" name="phone"/>
+          <input id="mail" type="" placeholder="Mail" name="mail"/>
+          <input id="passwd" type="" placeholder="Password" name="password"/>
+          <div id="msg"></div>
+          <button id="register" type="button">Register</button>
+      </form>
+      </div>
+  
+        <div class="table">
+          <table id="users">
+              <tr>
+                  <th class="tname">NAME</th>
+                  <th class="tphone">PHONE</th>
+                  <th class="tmail">MAIL</th>
+                  <th class="tpassword">PASSWORD</th>
+                  <th class="taction">ACTION</th>
+              </tr>
+              
+      
+          </table>
+      </div>
+
+      <script src="./jquery/jquery-3.6.1.min.js"></script>
+      <script src="./useradmin.js"></script>
+</body>
+</html>

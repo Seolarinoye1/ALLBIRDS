@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductAdmin</title>
+    <link rel="stylesheet" href="productadmin.css">
+</head>
+<body>
+    <div class="admin-page">
+      <form class="admin" method="POST" action="http://159.65.21.42:9000/create/product"  enctype="multipart/form-data"> 
+        <input class="name" type="" placeholder="Product Name" name="name"/>
+        <input type="" placeholder="Product Category" name="category"/>
+        <input type="" placeholder="Price" name="price"/>
+        <input type="" placeholder="Quantity" name="quantity"/>
+        <input class="image" type="file" name="image"/>
+        <input type="" placeholder="Description" name="description"/>
+        <div id="msg"></div>
+        <button id="register">Upload</button>
+    </form>
+    </div>
+
+      <div class="table">
+        <table id="products">
+            <tr>
+                <th class="tname">NAME</th>
+                <th class="tprice">PRICE</th>
+                <th class="tquantity">QUANTITY</th>
+                <th class="timage">IMAGE</th>
+                <th class="tdescribe">DESCRIPTION</th>
+                <th class="taction">ACTION</th>
+            </tr>
+            
+    
+        </table>
+    </div>
+        
+</body>
+
+<script src="./jquery/jquery-3.6.1.min.js"></script>
+<script src="./admin.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+ 
